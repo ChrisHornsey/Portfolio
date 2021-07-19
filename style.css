@@ -57,6 +57,32 @@ section.about-me {
     justify-self: center;
 }
 
+.projects {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 1fr;
+    grid-gap: 20px;
+}
+.projects h2 {
+    grid-area: 1 / 1 / span 1 / span 3;    
+}
+
+.projbox {
+    border: 1px solid black;
+    background-color: rgba(5,141,39,0.3);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.projbox i {
+    margin-right: 20px;
+}
+
+.projbox h3 {
+    display: inline;
+}
+
 .colour div {
     width: 300px;
     height: 100px;
