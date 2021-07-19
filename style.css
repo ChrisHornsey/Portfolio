@@ -79,8 +79,33 @@ section.about-me {
     margin-right: 20px;
 }
 
+.projbox .fa-minus-square {
+    display: none;
+}
+
+.projbox p{
+    display: none;
+}
+
 .projbox h3 {
     display: inline;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.icon_box {
+    display: flex;
+}
+
+.icon_box img {
+    height: 50px;
+    margin-right: 30px;
+}
+
+footer {
+    text-align: center;
 }
 
 .colour div {

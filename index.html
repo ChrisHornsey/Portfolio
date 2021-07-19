@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Merriweather&family=Varela+Round&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/29845c511a.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
@@ -57,31 +58,34 @@
     <section class = "projects">
         <h2>My Projects:</h2>
         <div class = "projbox SG">
-            <i class="far fa-plus-square"></i>
+            <i class="far fa-plus-square" id="SG_plus"></i>
+            <i class="far fa-minus-square" id = "SG_minus"></i>
             <h3><a href = "https://chrishornsey.github.io/StyleGuide/">StyleGuide</a></h3>
             <br>
             <br>
-            <p>
+            <p id="SG_p">
                 This was a project written using HTML & CSS, the aim of this project was to develop and display a coherent style guide for my work to follow.
                 Does it look like it is working?
             </p>
         </div>
         <div class = "projbox ADNG">
-            <i class="far fa-plus-square"></i>
+            <i class="far fa-plus-square" id = "ADNG_plus"></i>
+            <i class="far fa-minus-square" id = "ADNG_minus"></i>
             <h3><a href = "https://github.com/ChrisHornsey/Arkham_Deck_Generator">Arkham deck name generator</a></h3>
             <br>
             <br>
-            <p>
+            <p id = "ADNG_p">
                 This project was written using Javascript, as such just the code is in the linked repo, no fun page to play with currently :(.
                 The aim for the project was to develop some Javascript which would return a random string from a set of lists of various components.
             </p>
         </div>
         <div class = "projbox RMI">
-            <i class="far fa-plus-square"></i>
+            <i class="far fa-plus-square" id = "RMI_plus"></i>
+            <i class="far fa-minus-square" id = "RMI_minus"></i>
             <h3><a href = "https://chrishornsey.github.io/rexmurphyinv/">Rex Murphy Investigations</a></h3>
             <br>
             <br>
-            <p>
+            <p id = "RMI_p">
                 This project was written using HTML & CSS, the aim here was to develop a website for a fictional business.
                 I chose to build a PI agency for some of my favourite characters from the game!
                 From a technical point of view, this project utilises CSS FlexBox to help with the layout. 
@@ -91,6 +95,7 @@
     </section>
     <section class = "skills">
         <h2>My Skills:</h2>
+        <br>
         <div class = "icon_box">
             <img src="./images/html_icon.png" alt = "HTML">
             <img src="./images/CSS_icon.png" alt = "CSS">
@@ -98,6 +103,7 @@
             <img src="./images/Csharp_icon.png" alt = "C Sharp">
             <img src="./images/IDL_icon.JPG" alt = "IDL">
         </div>
+        <br>
     </section>
 
     <footer>
